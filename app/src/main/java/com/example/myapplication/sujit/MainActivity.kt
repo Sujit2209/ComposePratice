@@ -18,6 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.myapplication.sujit.Composables.ButtonLayout
 import com.example.myapplication.sujit.Composables.RowLayout
 import com.example.myapplication.sujit.Composables.ScaffoldFun
 import com.example.myapplication.sujit.Composables.TextViewLayout
@@ -34,7 +35,7 @@ class MainActivity : ComponentActivity() {
                 ) {
 //                        ScaffoldFun()
 //                        TextViewLayout()
-                    SwitchFun()
+                    ButtonLayout()
                 }
             }
         }
